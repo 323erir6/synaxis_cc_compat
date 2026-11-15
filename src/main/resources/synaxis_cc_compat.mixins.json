@@ -1,0 +1,17 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.synaxiscccompat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnchorPeripheralMixin",
+    "CameraPeripheralMixin",
+    "CompactFlapPeripheralMixin",
+    "DynamicMotorPeripheralMixin",
+    "JetPeripheralMixin",
+    "KineticResistorPeripheralMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
